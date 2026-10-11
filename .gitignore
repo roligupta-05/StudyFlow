@@ -1,4 +1,4 @@
-# Secrets and environment variables
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
@@ -7,9 +7,11 @@
 target/
 *.class
 
-# IDE and system files
+# IDE settings
 .vscode/
 .idea/
+
+# Operating system files
 .DS_Store
 Thumbs.db
 
